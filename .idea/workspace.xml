@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1037fb0d-1a22-46d2-8c85-760443d3a8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/kibofplib_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bang.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/Carta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/LettoreXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/Mazzo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/Partita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/Pistola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unib/fp/Esame/Partita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/Partita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/unib/fp/Esame/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/unib/fp/Esame/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717743035036</updated>
       <workItem from="1717743036222" duration="60000" />
-      <workItem from="1717743116669" duration="29638000" />
+      <workItem from="1717743116669" duration="30994000" />
     </task>
     <servers />
   </component>

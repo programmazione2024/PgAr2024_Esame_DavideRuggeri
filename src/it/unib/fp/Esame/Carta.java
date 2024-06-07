@@ -25,16 +25,8 @@ class Carta {
         return nome;
     }
 
-    public String getDescrizione() {
-        return descrizione;
-    }
-
     public boolean isEquipaggiabile() {
         return equipaggiabile;
-    }
-
-    public int getCopieTotali() {
-        return copieTotali;
     }
 
     public String getValori() {
@@ -66,8 +58,6 @@ class Carta {
         System.out.println("Hai usato la carta Barile per evitare il colpo!");
 
     }
-
-
     public void usaBirra(Persona giocatore) {
         if (giocatore.getRuolo().equals("Sceriffo")) {
             if (giocatore.getVita() < 5) {
@@ -115,7 +105,6 @@ class Carta {
             partita.pescaCarta(giocatore);
         }
     }
-
 
     public void usaGatling(List<Persona> giocatori, Persona giocatoreCorrente) {
         System.out.println("Hai usato la carta Gatling per sparare un BANG! a tutti gli altri giocatori.");

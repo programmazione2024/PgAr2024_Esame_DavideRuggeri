@@ -88,16 +88,20 @@ class Partita {
         giocatoreCorrente = (giocatoreCorrente + 1);
     }
 
+    public void setListaScarti(List<Carta> listaScarti) {
+        this.listaScarti = listaScarti;
+    }
+
     public boolean verificaVittoria() {
         Iterator<Persona> iterator = listaGiocatori.iterator();
         while (iterator.hasNext()) {
             Persona giocatore = iterator.next();
             if (giocatore.getVita() <= 0) {
                 System.out.println(giocatore.getNome() + " è stato eliminato dalla partita.");
-                iterator.remove(); // Rimuove il giocatore dalla lista durante l'iterazione sicura.
+                iterator.remove();
             }
         }
-        // Controllo se c'è un solo giocatore rimasto per la vittoria.
+
         if (listaGiocatori.size() == 1) {
             Persona vincitore = listaGiocatori.get(0);
             System.out.println("Il giocatore " + vincitore.getNome() + " ha vinto la partita!");
@@ -132,5 +136,4 @@ class Partita {
         persona.getCarteInMano().add(cartaPescata);
         return cartaPescata;
     }
-
 }

@@ -12,7 +12,7 @@
  ## Moduli Implementati
 
 
-- [x ] Modulo 1: Personaggi
+- [ ] Modulo 1: Personaggi
 - [x ] Modulo 2: Per un pugno di carte
 - [ ] Modulo 3: Classifica
 - [ ] Modulo 4: Saloon
